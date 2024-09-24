@@ -1,0 +1,83 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #0a0a23;
+    color: white;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #041727;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li:hover {
+    background-color: #1f2f46;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .logout {
+    background-color: #f5365c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 30px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #1f2f46;
+  }
+  
+  .user-table tr:hover {
+    background-color: #555;
+  }
+  
